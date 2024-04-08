@@ -1,8 +1,7 @@
 pipeline {
-    agent any
- 
+    agent any // Jenkins can run/build in any node
     tools {
-        maven 'localMaven'
+        maven 'local_Maven'
     }
  
 stages{
